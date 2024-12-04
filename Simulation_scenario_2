@@ -79,10 +79,7 @@ for(a in 1:nrow(parameters)) {
   res$RR_Y_linear[a]    <- mean(res.a[,4]<0.05) # Proportion of simulated datasets where the P<5% for the coefficient of C1 from model 2, quadratic
   res$bias_quadratic[a] <- mean(res.a[,5])      # Average (over simulated datasets0 of the coefficient for X from model 2, quadratic
   res$RR_Y_quadratic[a] <- mean(res.a[,6]<0.05) # Proportion of simulated datasets where the P<5% for the coefficient of C1 from model 2, quadratic
-
-  print(paste('Progress: ', round(100*a/nrow(parameters),2), '%.', sep=''))
 }
 
 #Save the simulation results in a .txt file
-write.table(res, 'X', row.names=F, sep='\t')
-
+write.table(res, 'Simulation_1_results.txt', row.names=F, sep='\t')
