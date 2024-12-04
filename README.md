@@ -1,0 +1,1 @@
+This repository contains the R scripts used for performing the simulations and data analyses described in Hartwig et al. (2024), currently under peer-review. Preprint available at: https://arxiv.org/abs/2402.10156.
