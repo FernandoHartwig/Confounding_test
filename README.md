@@ -5,3 +5,4 @@ This repository contains the following scripts:
 - Simulation_scenario_1.R: This script allows replicating simulation scenario 1 (see the supplementary material in Hartwig et al. (2024) for details).
 - Simulation_scenario_2.R: This script allows replicating simulation scenario 2 (see the supplementary material in Hartwig et al. (2024) for details).
 - Simulation_scenario_3.R: This script allows replicating simulation scenario 3 (see the supplementary material in Hartwig et al. (2024) for details).
+- Model_selection.R: This script allows replicating the model selection process used in the empirical data analysis (see the supplementary material in Hartwig et al. (2024) for details). 
