@@ -27,7 +27,7 @@ ncov_conf <- 12   #number of covariates that have a direct effect on both the ex
 #theta_X:      %Variance in X explained by confounders in a correctly-specified model (also regulates the effect of X-only causes on X)
 #theta_Y:      %Variance in Y explained by confounders in a correctly-specified model (also regulates the effect of Y-only causes on Y)
 
-#The parameters object will be a dataframe containing all desired combinations of parameters
+#The parameters object will be a dataframe containing all combinations of parameters considered in the simulation study
 
 #3a: Varying model specification and C_X
 parameters <- data.frame(scenario='3a', n=5000, stat_cutoff=2, rho=0, c_X=rep(c(0,4),3), c_Y=4, theta_X=0.3, theta_Y=0.3, f_X=1, f_Y=1, model_spec=rep(c(1:3),each=2))
