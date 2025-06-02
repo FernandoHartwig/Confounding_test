@@ -16,7 +16,7 @@ beta_c2x  <- 0.3                      # direct effect of C2 on X
 beta_c2y  <- 0.3                      # direct effect of C2 on the outcome (Y)
 beta_u    <- c(0,0.1,0.2,0.3,0.4,0.5) # direct effect of unmeasured variable (U) on both X and Y
 
-# The parameters object will be a dataframe containing all desired combinations of parameters
+# The parameters object will be a dataframe containing all combinations of parameters considered in the simulation study
 
 # Scenario 1a: vary n, keeping all other parameters constant
 parameters <- data.frame(scenario='1a', n, beta_c1c2, beta_c1x=0.3, beta_c2x, beta_c2y, beta_u=0.3)
