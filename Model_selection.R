@@ -12,11 +12,9 @@ library(gtools)
 ##############################################
 
 #Import the data into a dataframe named real.data.
-#The column corresponding to the outcome should be labelled "Y" (without the quotation marks).
-#The column corresponding to the exposure should be labelled "X" (without the quotation marks).
 #Create a vector covariate_names with the names of the covariates.
-#Ensure the exposure is labelled as X in the real.data data.frame, and is a binary variable coded as 0 or 1.
-#Ensure the outcome is labelled as Y in the real.data data.frame, and is a continuous variable.
+#Ensure the exposure is labelled as "X" (without the quotation marks) in the real.data data.frame, and is a binary variable coded as 0 or 1.
+#Ensure the outcome is labelled as "Y" (without the quotation marks) in the real.data data.frame, and is a continuous variable.
 #Ensure there is no missing data for X, Y or any covariate.
 
 ncov <- length(covariate_names) #Number of covariates
